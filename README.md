@@ -1,3 +1,27 @@
+This REST-FULL-API application include:
+
+
+- migration for users table (name, email,password,address,active)
+- softDelete true for Users table
+- RESTFull api for ALL CRUD operations
+- function search and new route search. Input checks match in name, email and 
+address DB fields
+
+
+
+- command that delete inactive users more than 6 months
+- Run command everyday at 19:30
+- Use faker for db:seed and set 100 users
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
